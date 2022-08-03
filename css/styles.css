@@ -141,6 +141,43 @@ img {
   cursor: pointer;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.socials__link--light-theme {
+  color: var(--icon-color);
+
+  transition: color var(--animation), background-color var(--animation);
+}
+
+.socials__link--light-theme:hover {
+  color: var(--main-light);
+  background-color: var(--acent-color);
+}
+
+.socials__link--dark-theme {
+  color: var(--main-light);
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color var(--animation);
+}
+
+.socials__link--dark-theme:hover {
+  background-color: var(--acent-color);
+}
+
 .icon {
   fill: currentColor;
 }
@@ -416,30 +453,6 @@ img {
   color: var(--secondary-font-color);
 }
 
-.team-icon-list {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.team-icon-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-
-  color: var(--icon-color);
-  border-radius: 50%;
-
-  transition: color var(--animation), background-color var(--animation);
-}
-
-.team-icon-link:hover {
-  color: var(--main-light);
-  background-color: var(--acent-color);
-}
-
 /**
   |============================
   | Clients section
@@ -489,6 +502,10 @@ img {
   align-items: baseline;
 }
 
+.footer__address-wrap {
+  margin-right: 93px;
+}
+
 .footer__logo {
   display: flex;
   margin-bottom: 20px;
@@ -496,10 +513,6 @@ img {
 
 .footer-item:nth-child(-n + 2) {
   margin-bottom: 9px;
-}
-
-.footer-address {
-  margin-right: 93px;
 }
 
 .address-link {
@@ -521,11 +534,12 @@ img {
   color: var(--acent-color);
 }
 
-.footer-social {
+.footer__socials {
   margin-right: 93px;
 }
 
-.footer-social-subtitle {
+.footer__subtitle {
+  display: block;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -534,41 +548,7 @@ img {
   color: var(--main-light);
 }
 
-.footer-social-list {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-.footer-social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-
-  color: var(--main-light);
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
-
-  transition: background-color var(--animation);
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: var(--acent-color);
-}
-
-.footer-form-title {
-  display: block;
-  margin-bottom: 20px;
-
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--main-light);
-}
-
-.footer-form {
+.subscription-form {
   display: flex;
   align-items: baseline;
   gap: 12px;
