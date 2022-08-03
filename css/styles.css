@@ -168,6 +168,10 @@ img {
   margin-right: 93px;
 }
 
+.header__nav {
+  margin-right: auto;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -212,7 +216,6 @@ img {
 
 .header__list {
   display: flex;
-  margin-left: auto;
   gap: 30px;
 }
 
