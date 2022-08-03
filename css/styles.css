@@ -554,7 +554,7 @@ img {
   gap: 12px;
 }
 
-.form-input {
+.subscription-form__input {
   display: inline-block;
   width: 358px;
   padding-top: 15px;
@@ -572,13 +572,13 @@ img {
   outline: transparent;
 }
 
-.form-input::placeholder {
+.subscription-form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-form-btn {
+.subscription-form__btn {
   display: flex;
   align-items: center;
   gap: 10px;
