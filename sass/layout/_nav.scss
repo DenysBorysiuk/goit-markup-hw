@@ -3,14 +3,14 @@
   align-items: center;
 
   &__list {
-    @extend %list;
+    @extend %reset-list;
     display: flex;
     gap: 40px;
   }
 }
 
 .nav__link {
-  @extend %link;
+  @extend %reset-link;
   position: relative;
 
   display: block;

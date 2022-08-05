@@ -2,7 +2,7 @@
   @include section;
 
   &__list {
-    @extend %list;
+    @extend %reset-list;
     --items: 4;
   }
 

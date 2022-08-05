@@ -7,7 +7,7 @@
   }
 
   &__list {
-    @extend %list;
+    @extend %reset-list;
     --items: 4;
   }
 

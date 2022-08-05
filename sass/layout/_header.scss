@@ -1,55 +1,52 @@
 .header {
-    background-color: var(--main-light);
-    border-bottom: 1px solid #ececec;
+  background-color: var(--main-light);
+  border-bottom: 1px solid #ececec;
 
+  &__container {
+    display: flex;
+    align-items: center;
+  }
 
-    &__container {
-        display: flex;
-        align-items: center;
-    }
+  &__logo {
+    @extend %reset-link;
+    margin-right: 93px;
+  }
 
-    &__logo {
-        @extend %link;
-        margin-right: 93px;
-    }
+  &__nav {
+    margin-right: auto;
+  }
 
-    &__nav {
-        margin-right: auto;
-    }
+  &__list {
+    @extend %reset-list;
 
-    &__list {
-        @extend %list;
+    display: flex;
+    gap: 30px;
+  }
 
-        display: flex;
-        gap: 30px;
-    }
+  &__item {
+    display: flex;
+  }
 
-    &__item {
-        display: flex;
-    }
-
-    &__icon {
-        margin-right: 10px;
-    }
-
+  &__icon {
+    margin-right: 10px;
+  }
 }
 
 .header__link {
-    @extend %link;
+  @extend %reset-link;
 
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--secondary-font-cl);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-font-cl);
 
-    transition: color var(--animation);
+  transition: color var(--animation);
 
-
-    &:hover,
-    &:focus {
-        color: var(--accent-cl);
-    }
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }

@@ -32,7 +32,7 @@
 }
 
 .card__link {
-  @extend %link;
+  @extend %reset-link;
   display: block;
   transition: box-shadow var(--animation);
 

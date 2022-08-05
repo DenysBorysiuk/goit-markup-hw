@@ -1,12 +1,12 @@
 .socials {
-  @extend %list;
+  @extend %reset-list;
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
 .socials__link {
-  @extend %link;
+  @extend %reset-link;
   display: flex;
   justify-content: center;
   align-items: center;

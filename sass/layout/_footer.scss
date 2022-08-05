@@ -14,13 +14,13 @@
   }
 
   &__logo {
-    @extend %link;
+    @extend %reset-link;
     display: flex;
     margin-bottom: 20px;
   }
 
   &__list {
-    @extend %list;
+    @extend %reset-list;
   }
 
   &__item:not(:last-child) {
@@ -50,7 +50,7 @@
 }
 
 .footer__link {
-  @extend %link;
+  @extend %reset-link;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 
