@@ -1,0 +1,40 @@
+// utils styles
+@import './utils/modern-normalize';
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/decimal';
+@import './utils/placeholders';
+
+// base styles
+@import './base/base';
+@import './base/reset';
+
+// components styles
+@import './components/logo';
+@import './components/titles';
+@import './components/button';
+@import './components/socials';
+@import './components/card-set';
+@import './components/filter';
+@import './components/card';
+@import './components/registration-form';
+@import './components/subscription-form';
+
+// Нужно заменить
+@import './components/section';
+@import './components/container';
+
+// layout styles
+@import './layout/header';
+@import './layout/navigation';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/works';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/modal';
+
+// @import './layout';
+
+

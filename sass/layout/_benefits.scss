@@ -1,0 +1,23 @@
+.benefits__list {
+    --items: 4;
+}
+
+.benefits__img {
+    padding: 25px 100px;
+    margin-bottom: 30px;
+
+    background-color: var(--light-bg-cl);
+}
+
+.benefits__subtitle {
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.benefits__text {
+    line-height: 1.71;
+    color: var(--secondary-font-cl);
+}
