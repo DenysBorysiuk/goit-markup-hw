@@ -1,16 +1,16 @@
 .works {
-    padding-top: 0px;
-}
+  @include section;
+  padding-top: 0px;
 
-.works__title {
+  &__title {
     margin-bottom: 50px;
-}
+  }
 
-.works__thumb {
+  &__thumb {
     position: relative;
-}
+  }
 
-.works__desc {
+  &__desc {
     position: absolute;
     bottom: 0;
 
@@ -24,4 +24,5 @@
     color: #ffffff;
 
     background-color: rgba(47, 48, 58, 0.8);
+  }
 }

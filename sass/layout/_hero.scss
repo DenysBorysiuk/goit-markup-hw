@@ -12,17 +12,10 @@
     url(../images/bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-}
 
-.hero__title {
-  margin-bottom: 30px;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--main-light);
+  &__title {
+    margin-bottom: 30px;
+  }
 }
 
 .hero__button {
@@ -31,9 +24,9 @@
   padding: 10px 32px;
 
   transition: background-color var(--animation);
-}
 
-.hero__button:hover,
-.hero__button:focus {
-  background-color: var(--hover-btn);
-} 
+  &:hover,
+  &:focus {
+    background-color: var(--hover-btn);
+  }
+}

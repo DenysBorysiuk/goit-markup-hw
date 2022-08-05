@@ -1,13 +1,13 @@
 .card-set {
+    @extend %list;
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
 
-    /* на той випадок, коли відступи різні */
-    /* row-gap: var(--indent-horisontal);
-     column-gap: var(--indent-vertical); */
-}
+    &__item {
+        flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+    }
+}    
 
-.card-set__item {
-    flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-}
+
+

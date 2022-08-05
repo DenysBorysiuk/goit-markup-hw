@@ -1,23 +1,28 @@
-.benefits__list {
-    --items: 4;
-}
+.benefits {
+  @include section;
 
-.benefits__img {
+  &__list {
+    @extend %list;
+    --items: 4;
+  }
+
+  &__img {
     padding: 25px 100px;
     margin-bottom: 30px;
 
     background-color: var(--light-bg-cl);
-}
+  }
 
-.benefits__subtitle {
+  &__subtitle {
     margin-bottom: 10px;
 
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
-}
+  }
 
-.benefits__text {
+  &__text {
     line-height: 1.71;
     color: var(--secondary-font-cl);
+  }
 }
