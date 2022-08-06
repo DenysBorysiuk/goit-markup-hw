@@ -1,6 +1,5 @@
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  @include section(60px);
 
   background-color: var(--dark-bg-cl);
 
@@ -28,9 +27,9 @@
   }
 
   &__address {
+    @include fonts(14px, 24px);
     font-style: normal;
     text-decoration: none;
-    line-height: 1.7;
     color: var(--main-light);
   }
 
@@ -42,8 +41,7 @@
     display: block;
     margin-bottom: 20px;
 
-    font-weight: 700;
-    line-height: 1.14;
+    @include fonts(14px, 10px, 700);
     text-transform: uppercase;
     color: var(--main-light);
   }

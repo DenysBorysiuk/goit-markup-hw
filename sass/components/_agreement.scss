@@ -6,15 +6,13 @@
   margin-bottom: 30px;
 
   &__text {
-    font-size: 14px;
-    line-height: 1.71;
+    @include fonts(14px, 24px);
     color: var(--secondary-font-cl);
     user-select: none;
   }
 
   &__link {
-    font-size: 14px;
-    line-height: 1.71;
+    @include fonts(14px, 24px);
     text-decoration: underline;
     text-underline-position: under;
     color: var(--accent-cl);

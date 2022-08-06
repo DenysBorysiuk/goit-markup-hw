@@ -26,16 +26,13 @@
   }
 
   &__subtitle {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.89;
+    @include fonts(16px, 19px, 500);
   }
 
   &__desc {
     padding-bottom: 16px;
 
-    font-size: 16px;
-    line-height: 1.89;
+    @include fonts(16px, 19px, 500);
     color: var(--secondary-font-cl);
   }
 }

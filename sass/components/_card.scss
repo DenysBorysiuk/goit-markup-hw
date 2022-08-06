@@ -5,9 +5,8 @@
   }
 
   &__text {
+    @include fonts(18px, 28px);
     text-align: center;
-    font-size: 18px;
-    line-height: 1.56;
     color: var(--main-light);
   }
 
@@ -19,14 +18,11 @@
   }
 
   &__title {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+    @include fonts(18px, 36px, 700, 0.06em);
   }
 
   &__desc {
-    font-size: 16px;
-    line-height: 1.88;
+    @include fonts(16px, 30px);
     color: var(--secondary-font-cl);
   }
 }

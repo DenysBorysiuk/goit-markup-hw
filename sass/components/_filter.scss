@@ -9,9 +9,7 @@
 .filter__btn {
   padding: 6px 22px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+  @include fonts(16px, 26px, 500);
   color: var(--main-font-cl);
 
   background: var(--light-bg-cl);

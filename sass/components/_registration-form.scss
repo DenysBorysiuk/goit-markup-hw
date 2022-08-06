@@ -3,7 +3,7 @@
     display: block;
     margin-bottom: 12px;
 
-    font-size: 20px;
+    @include fonts(20px, 23px, 700);
     text-align: center;
   }
 
@@ -26,9 +26,7 @@
     display: block;
     margin-bottom: 4px;
 
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include fonts(12px, 14px, 0.01em);
     color: var(--secondary-font-cl);
   }
 }
@@ -85,6 +83,7 @@
   }
 
   &::placeholder {
+    @include fonts(12px, 14px, 0.01em);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;

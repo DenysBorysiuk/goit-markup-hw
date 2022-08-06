@@ -38,9 +38,7 @@
   display: flex;
   align-items: center;
 
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include fonts(14px, 16px, 500, 0.02em);
   color: var(--secondary-font-cl);
 
   transition: color var(--animation);

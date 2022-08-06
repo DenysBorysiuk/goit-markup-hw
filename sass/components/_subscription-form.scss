@@ -10,8 +10,7 @@
     padding-bottom: 15px;
     padding-left: 16px;
 
-    font-size: 16px;
-    line-height: 1.25;
+    @include fonts(16px, 20px);
     color: rgba(255, 255, 255, 0.6);
 
     background-color: transparent;
@@ -22,8 +21,7 @@
   }
 
   &__input::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
+    @include fonts(16px, 20px);
     color: rgba(255, 255, 255, 0.6);
   }
 

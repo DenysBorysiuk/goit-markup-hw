@@ -16,13 +16,12 @@
   &__subtitle {
     margin-bottom: 10px;
 
-    font-size: 14px;
-    line-height: 1.14;
+    @include fonts(14px, 16px, 700);
     text-transform: uppercase;
   }
 
   &__text {
-    line-height: 1.71;
+    @include fonts(14px, 24px);
     color: var(--secondary-font-cl);
   }
 }

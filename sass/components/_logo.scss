@@ -1,16 +1,13 @@
 .logo {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: var(--logo-dark-cl);
+  font-family: var(--secondary-font);
+  @include fonts(26px, 31px, 700);
+  color: var(--logo-dark-cl);
 
-    &--light {
-        color: var(--main-light);
-    }
+  &--light {
+    color: var(--main-light);
+  }
 
-    &__text {
-        color: var(--accent-cl);
-    }
+  &__text {
+    color: var(--accent-cl);
+  }
 }
-

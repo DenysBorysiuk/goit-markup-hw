@@ -316,7 +316,6 @@ html {
 body {
   font-family: var(--primary-font);
   font-size: 14px;
-  letter-spacing: 0.03em;
   color: var(--main-font-cl);
   background-color: var(--main-light);
 }
@@ -347,6 +346,7 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--logo-dark-cl);
 }
 .logo--light {
@@ -372,7 +372,8 @@ p {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -463,7 +464,8 @@ p {
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
   color: var(--main-font-cl);
   background: var(--light-bg-cl);
   border-radius: 4px;
@@ -490,9 +492,11 @@ p {
   overflow: hidden;
 }
 .card__text {
-  text-align: center;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
+  letter-spacing: 0.03em;
+  text-align: center;
   color: var(--main-light);
 }
 .card__content {
@@ -501,13 +505,16 @@ p {
   border-top: none;
 }
 .card__title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .card__desc {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
   color: var(--secondary-font-cl);
 }
 
@@ -546,7 +553,10 @@ p {
 .registration-form__title {
   display: block;
   margin-bottom: 12px;
+  font-weight: 700;
   font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .registration-form__group {
@@ -563,9 +573,10 @@ p {
 .registration-form__label {
   display: block;
   margin-bottom: 4px;
+  font-weight: 0.01em;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
   color: var(--secondary-font-cl);
 }
 
@@ -613,30 +624,50 @@ p {
   border-color: var(--accent-cl);
 }
 .registration-form__textaria::-webkit-input-placeholder {
+  font-weight: 0.01em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .registration-form__textaria::-moz-placeholder {
+  font-weight: 0.01em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .registration-form__textaria:-ms-input-placeholder {
+  font-weight: 0.01em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .registration-form__textaria::-ms-input-placeholder {
+  font-weight: 0.01em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 .registration-form__textaria::placeholder {
+  font-weight: 0.01em;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -670,8 +701,10 @@ p {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 16px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -681,28 +714,38 @@ p {
   outline: transparent;
 }
 .subscription-form__input::-webkit-input-placeholder {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-form__input::-moz-placeholder {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-form__input:-ms-input-placeholder {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-form__input::-ms-input-placeholder {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-form__input::placeholder {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .subscription-form__btn {
@@ -731,8 +774,10 @@ p {
   margin-bottom: 30px;
 }
 .agreement__text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-font-cl);
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -740,8 +785,10 @@ p {
           user-select: none;
 }
 .agreement__link {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   text-decoration: underline;
   text-underline-position: under;
   color: var(--accent-cl);
@@ -823,6 +870,7 @@ p {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-font-cl);
@@ -854,6 +902,7 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   -webkit-transition: color var(--animation);
@@ -918,12 +967,17 @@ p {
 }
 .benefits__subtitle {
   margin-bottom: 10px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .benefits__text {
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--secondary-font-cl);
 }
 
@@ -944,7 +998,9 @@ p {
   width: 100%;
   padding: 27px 82px;
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -976,12 +1032,15 @@ p {
 .team__subtitle {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.89;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .team__desc {
   padding-bottom: 16px;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.89;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--secondary-font-cl);
 }
 
@@ -1039,9 +1098,12 @@ p {
   margin-bottom: 9px;
 }
 .footer__address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
-  line-height: 1.7;
   color: var(--main-light);
 }
 .footer__socials {
@@ -1051,7 +1113,9 @@ p {
   display: block;
   margin-bottom: 20px;
   font-weight: 700;
-  line-height: 1.14;
+  font-size: 14px;
+  line-height: 0.71;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-light);
 }
